@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
+body {
+    background: url('../images/background.jpg') no-repeat center center fixed;
+}
+
+.header {
+    /* this is how you comment in css */
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    /* do this stuff to them */
+    font-family: 'Roboto', sans-serif;
+}
+
+p, li {
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+h1 {
+    color:green;
+    font-size: 30px;
+    text-align: center;
+}
+.main-content{
+    width: 50%;
+    margin: 0 auto;
